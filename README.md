@@ -6,6 +6,7 @@ This project is a simple web-based counter application. It allows users to incre
 1. [Getting Started](#getting-started)
 2. [Usage](#usage)
 3. [Files](#files)
+4. [Customization](#customization)
 
 ## Getting Started
 
@@ -23,11 +24,13 @@ To use this application, you only need a web browser. Simply open the `index.htm
 2. **style.css**
 3. **script.js**
 
-## License
-
-This project is licensed under the MIT License.
+## Customization
 
 To customize the counter application, you can modify the following:
 
 - **Appearance**: Edit the `style.css` file to change the look and feel of the counter and buttons.
 - **Functionality**: Edit the `script.js` file to add more features or change the behavior of the existing buttons. For example, you could add a new button that doubles the current counter value.
+
+## License
+
+This project is licensed under the MIT License.
