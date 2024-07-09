@@ -6,7 +6,6 @@ This project is a simple web-based counter application. It allows users to incre
 1. [Getting Started](#getting-started)
 2. [Usage](#usage)
 3. [Files](#files)
-4. [Customization](#customization)
 
 ## Getting Started
 
@@ -21,97 +20,12 @@ To use this application, you only need a web browser. Simply open the `index.htm
 ## Files
 
 1. **index.html**
-    ```html
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Counter Program</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-    <label id="counterLbl">0</label>
-    <div class="containerBtn">
-      <button class="buttons" id="decreaseBtn">Decrease</button>
-      <button class="buttons" id="resetBtn">Reset</button>
-      <button class="buttons" id="increaseBtn">Increase</button>
-    </div>
-    <script src="script.js"></script>
-    </body>
-    </html>
-    ```
-
 2. **style.css**
-    ```css
-    html {
-        height: 100%;
-        width: 100%;
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    #counterLbl {
-        display: block;
-        text-align: center;
-        font-size: 8em;
-        font-family: Helvetica;
-        margin-top: 20px;
-    }
-    
-    .containerBtn {
-        text-align: center;
-    }
-    
-    .buttons {
-        font-size: 2.5em;
-        padding: 10px;
-        margin-top: 40px;
-        margin-left: 10px;
-        color: white;
-        background-color: #265f82;
-        border-radius: 5px;
-        border: none;
-        cursor: pointer;
-        transition: background-color 0.25s;
-    }
-    
-    .buttons:hover {
-        background-color: #063451;
-    }
-    ```
-
 3. **script.js**
-    ```javascript
-    // COUNTER PROGRAM
-    
-    const counterLbl = document.getElementById("counterLbl");
-    const decreaseBtn = document.getElementById("decreaseBtn");
-    const resetBtn = document.getElementById("resetBtn");
-    const increaseBtn = document.getElementById("increaseBtn");
-    let counter = 0;
-    
-    document.getElementById("decreaseBtn").onclick = function() {
-      counter--;
-      document.getElementById("counterLbl").textContent = counter;
-    }
-    
-    document.getElementById("resetBtn").onclick = function() {
-      counter = 0;
-      document.getElementById("counterLbl").textContent = counter;
-    }
-    
-    document.getElementById("increaseBtn").onclick = function() {
-      counter++;
-      document.getElementById("counterLbl").textContent = counter;
-    }
-    ```
 
-## Customization
+## License
+
+This project is licensed under the MIT License.
 
 To customize the counter application, you can modify the following:
 
