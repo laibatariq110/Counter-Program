@@ -2,6 +2,10 @@
 
 This project is a simple web-based counter application. It allows users to increase, decrease, or reset a numerical counter displayed on the webpage. The project consists of three primary files: `index.html`, `style.css`, and `script.js`.
 
+## 🌐 Live Demo
+![Counter Program Screenshot](counter.png)
+[View the live project here!](https://laibatariq110.github.io/Counter-Program)
+
 ## Table of Contents
 1. [Getting Started](#getting-started)
 2. [Usage](#usage)
@@ -30,7 +34,3 @@ To customize the counter application, you can modify the following:
 
 - **Appearance**: Edit the `style.css` file to change the look and feel of the counter and buttons.
 - **Functionality**: Edit the `script.js` file to add more features or change the behavior of the existing buttons. For example, you could add a new button that doubles the current counter value.
-
-## License
-
-This project is licensed under the MIT License.
